@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Add</h2>
+@model Lab2.Models.Student
+
+<div>
+    <form action="/Student/Add" method="post">
+        <input type="text" name="Name" class="form-control" placeholder="Student Name">
+        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        <input type="text" name="Dob" class="form-control">
+        @Html.ValidationMessageFor(model => model.Dob, "", new { @class = "text-danger" })
+        <input type="number" name="Credit" class="form-control" placeholder="Completed Credit">
+        @Html.ValidationMessageFor(model => model.Credit, "", new { @class = "text-danger" })
+        <input type="number" name="CGPA" class="form-control" placeholder="CGPA">
+        @Html.ValidationMessageFor(model => model.CGPA, "", new { @class = "text-danger" })
+        <input type="number" name="Deptid" class="form-control" placeholder="Department ID..">
+        @Html.ValidationMessageFor(model => model.Deptid, "", new { @class = "text-danger" })
+        <input type="submit" class="btn btn-block" value="Add" />
+    </form>
+</div>
