@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="inra_bd_categories">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="inra_bd_products" Relationship="Self.FK_inra_bd_products_inra_bd_categories" FromRole="inra_bd_categories" ToRole="inra_bd_products" />
+  </EntityType>
+  <EntityType Name="inra_bd_products">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="category_id" Type="Int32" Nullable="false" />
+    <Property Name="price" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="qty" Type="Int32" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="created_at" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="updated_at" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="deleted_at" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="created_by" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="updated_by" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="deleted_by" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="inra_bd_categories" Relationship="Self.FK_inra_bd_products_inra_bd_categories" FromRole="inra_bd_products" ToRole="inra_bd_categories" />
+  </EntityType>
+  <Association Name="FK_inra_bd_products_inra_bd_categories">
+    <End Role="inra_bd_categories" Type="Self.inra_bd_categories" Multiplicity="1" />
+    <End Role="inra_bd_products" Type="Self.inra_bd_products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="inra_bd_categories">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="inra_bd_products">
+        <PropertyRef Name="category_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="InventoryManagement_SystemEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="inra_bd_categories" EntityType="Self.inra_bd_categories" />
+    <EntitySet Name="inra_bd_products" EntityType="Self.inra_bd_products" />
+    <AssociationSet Name="FK_inra_bd_products_inra_bd_categories" Association="Self.FK_inra_bd_products_inra_bd_categories">
+      <End Role="inra_bd_categories" EntitySet="inra_bd_categories" />
+      <End Role="inra_bd_products" EntitySet="inra_bd_products" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,6 @@
+D:\AP_MID_SUM21\InventoryManagementSystem\BLL\bin\Debug\BLL.dll
+D:\AP_MID_SUM21\InventoryManagementSystem\BLL\bin\Debug\BLL.pdb
+D:\AP_MID_SUM21\InventoryManagementSystem\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\AP_MID_SUM21\InventoryManagementSystem\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\AP_MID_SUM21\InventoryManagementSystem\BLL\obj\Debug\BLL.dll
+D:\AP_MID_SUM21\InventoryManagementSystem\BLL\obj\Debug\BLL.pdb
