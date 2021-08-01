@@ -54,3 +54,8 @@ D:\AP_MID_SUM21\Inventory-Management-System\Inventory-Management-System\obj\Debu
 D:\AP_MID_SUM21\Inventory-Management-System\Inventory-Management-System\obj\Debug\Inventory-Management-System.csproj.CopyComplete
 D:\AP_MID_SUM21\Inventory-Management-System\Inventory-Management-System\obj\Debug\Inventory-Management-System.dll
 D:\AP_MID_SUM21\Inventory-Management-System\Inventory-Management-System\obj\Debug\Inventory-Management-System.pdb
+D:\AP_MID_SUM21\Inventory-Management-System\Inventory-Management-System\bin\AutoMapper.dll
+D:\AP_MID_SUM21\Inventory-Management-System\Inventory-Management-System\bin\DAL.dll
+D:\AP_MID_SUM21\Inventory-Management-System\Inventory-Management-System\bin\AutoMapper.xml
+D:\AP_MID_SUM21\Inventory-Management-System\Inventory-Management-System\bin\DAL.pdb
+D:\AP_MID_SUM21\Inventory-Management-System\Inventory-Management-System\bin\DAL.dll.config

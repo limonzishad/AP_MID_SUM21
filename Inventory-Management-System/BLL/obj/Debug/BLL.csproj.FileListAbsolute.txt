@@ -12,3 +12,5 @@ D:\AP_MID_SUM21\Inventory-Management-System\BLL\obj\Debug\BLL.csproj.CoreCompile
 D:\AP_MID_SUM21\Inventory-Management-System\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\AP_MID_SUM21\Inventory-Management-System\BLL\obj\Debug\BLL.dll
 D:\AP_MID_SUM21\Inventory-Management-System\BLL\obj\Debug\BLL.pdb
+D:\AP_MID_SUM21\Inventory-Management-System\BLL\bin\Debug\AutoMapper.dll
+D:\AP_MID_SUM21\Inventory-Management-System\BLL\bin\Debug\AutoMapper.xml
