@@ -1,6 +1,0 @@
-D:\AP_MID_SUM21\InventoryManagementSystem\BEL\bin\Debug\BEL.dll
-D:\AP_MID_SUM21\InventoryManagementSystem\BEL\bin\Debug\BEL.pdb
-D:\AP_MID_SUM21\InventoryManagementSystem\BEL\obj\Debug\BEL.csproj.AssemblyReference.cache
-D:\AP_MID_SUM21\InventoryManagementSystem\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
-D:\AP_MID_SUM21\InventoryManagementSystem\BEL\obj\Debug\BEL.dll
-D:\AP_MID_SUM21\InventoryManagementSystem\BEL\obj\Debug\BEL.pdb
