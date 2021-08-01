@@ -53,7 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CategoryRepo.cs" />
     <Compile Include="inra_bd_categories.cs">
       <DependentUpon>InventoryMS.tt</DependentUpon>
     </Compile>
@@ -75,6 +75,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>InventoryMS.edmx</DependentUpon>
     </Compile>
+    <Compile Include="ProductRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
