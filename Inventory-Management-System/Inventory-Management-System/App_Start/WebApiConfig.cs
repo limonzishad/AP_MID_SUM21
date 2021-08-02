@@ -1,7 +1,9 @@
-﻿using System;
+﻿using BLL.MapperConfig;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Inventory_Management_System
 {
@@ -19,6 +21,10 @@ namespace Inventory_Management_System
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.EnableCors();
+            AutoMapper.Mapper.Initialize(con => con.AddProfile<AutoMapperSettings>());
+
         }
     }
 }
