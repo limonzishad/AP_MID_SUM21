@@ -10,6 +10,7 @@ using System.Web.Http.Cors;
 
 namespace Inventory_Management_System.Controllers
 {
+    [EnableCorsAttribute("*", "*", "*")]
     public class CategoryController : ApiController
     {
         [Route("api/Category/Names")]
