@@ -59,3 +59,6 @@ D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\Inventory-Management-Sy
 D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\Inventory-Management-System2\obj\Debug\Inventory-Management-System2.csproj.CopyComplete
 D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\Inventory-Management-System2\obj\Debug\Inventory-Management-System2.dll
 D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\Inventory-Management-System2\obj\Debug\Inventory-Management-System2.pdb
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\Inventory-Management-System2\bin\DAL.dll
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\Inventory-Management-System2\bin\DAL.pdb
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\Inventory-Management-System2\bin\DAL.dll.config

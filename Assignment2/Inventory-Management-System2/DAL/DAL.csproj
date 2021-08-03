@@ -53,13 +53,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CartRepo.cs" />
     <Compile Include="CartTable.cs">
       <DependentUpon>InventoryMS2.tt</DependentUpon>
     </Compile>
     <Compile Include="Category.cs">
       <DependentUpon>InventoryMS2.tt</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CategoryRepo.cs" />
+    <Compile Include="OrderDetailsRepo.cs" />
     <Compile Include="InventoryMS2.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -81,9 +83,11 @@
     <Compile Include="OrderDetail.cs">
       <DependentUpon>InventoryMS2.tt</DependentUpon>
     </Compile>
+    <Compile Include="OrderRepo.cs" />
     <Compile Include="Product.cs">
       <DependentUpon>InventoryMS2.tt</DependentUpon>
     </Compile>
+    <Compile Include="ProductRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
