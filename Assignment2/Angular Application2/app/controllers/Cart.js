@@ -1,5 +1,5 @@
 app.controller("Cart",function($scope,$http,ajax){
-    ajax.get("https://localhost:44386/api/Cart/GetAll",success,error);
+    ajax.get("https://localhost:44358/api/Cart/GetAll",success,error);
     function success(response){
       $scope.Cart=response.data;
     }
