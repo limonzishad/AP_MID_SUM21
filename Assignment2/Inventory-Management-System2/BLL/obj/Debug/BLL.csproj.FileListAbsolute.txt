@@ -1,0 +1,16 @@
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\bin\Debug\BLL.dll
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\bin\Debug\BLL.pdb
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\bin\Debug\AutoMapper.dll
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\bin\Debug\BEL.dll
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\bin\Debug\DAL.dll
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\bin\Debug\EntityFramework.dll
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\bin\Debug\BEL.pdb
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\bin\Debug\DAL.pdb
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\bin\Debug\DAL.dll.config
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\bin\Debug\AutoMapper.xml
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\bin\Debug\EntityFramework.xml
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\obj\Debug\BLL.dll
+D:\AP_MID_SUM21\Assignment2\Inventory-Management-System2\BLL\obj\Debug\BLL.pdb
