@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
-    public class Class1
+    public class CategoryModel
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
